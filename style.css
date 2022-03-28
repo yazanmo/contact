@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+h1 {
+  margin: 5% 0%;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.contact {
+  border: 0.5px solid #ccc;
+  padding: 2%;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h2{
+    transition: 0.3s;
+}
+h2:hover {
+    transform: translateY(-10px);
+  }
+
+  i {
+    color: rgb(225, 225, 57);
+  }
+  
+  h2,h3{
+   margin-bottom: 15px;
+  }
